@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.mainPage {
+  /* Rectangle 2134 */
+
+
+  /*border*/
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+
+  position: flex;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  display: inline-grid;
+  justify-content: space-evenly;
+
+  background: #FFFFFF;
+
+}
+
+.header {
+  /*border*/
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  height: 5%;
+  display:flex;
+  padding-left: 5%;
+  justify-content: flex-start;
+}
+
+.header-button{
+  padding: 10px;
+  font-family: "Raleway";
+  text-transform: uppercase;
+}
+
+.productComponent {
+  /* Rectangle 2134 */
+
+  /*border*/
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  
+  position: flex;
+  width: 20%;
+  height: 20%;
+  left: 0px;
+  top: 0px;
+
+
+  background: #FFFFFF;
+
+}
+
+.productImage{
+  height:50%;
+  width: 50%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
