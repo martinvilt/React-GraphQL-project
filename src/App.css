@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+
 .App {
   text-align: center;
 }
@@ -13,57 +15,63 @@
   }
 }
 
+.productCategory{
+  margin-left: 5%;
+  font-family: "Raleway";
+  text-transform: capitalize;
+}
+
 .mainPage {
   /* Rectangle 2134 */
 
 
   /*border*/
-  border-color: black;
+  border-color: orange;
   border-width: 2px;
   border-style: solid;
 
-  position: flex;
-  width: 100%;
-  height: 100%;
-  left: 0px;
-  top: 0px;
-  display: inline-grid;
-  justify-content: space-evenly;
-
-  background: #FFFFFF;
-
-}
-
-.header {
-  /*border*/
-  border-color: black;
-  border-width: 2px;
-  border-style: solid;
-  height: 5%;
-  display:flex;
-  padding-left: 5%;
+  display: inline-flex;
   justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+
 }
 
-.header-button{
-  padding: 10px;
-  font-family: "Raleway";
-  text-transform: uppercase;
+.price{
+  /* --price-regular-font */
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+
+  text-align: left;
 }
 
 .productComponent {
   /* Rectangle 2134 */
 
   /*border*/
-  border-color: black;
-  border-width: 2px;
+  border-color: red;
+  border-width: 1px;
   border-style: solid;
-  
-  position: flex;
-  width: 20%;
-  height: 20%;
+
+  width: 25%;
+  height: 25%;
   left: 0px;
   top: 0px;
+  
 
 
   background: #FFFFFF;
@@ -75,12 +83,40 @@
   width: 50%;
 }
 
+.header {
+  /*border*/
+
+  width: 100%;
+  height: 5%;
+  padding-left: 5%;
+}
+
+.header-button{
+  display: inline;
+  padding: 10px;
+  font-family: "Raleway";
+  text-transform: uppercase;
+  justify-self: flex-start;
+}
+
+.currencySelector{
+  display: inline;
+  float:right;
+  margin-right: 0%;
+}
+.shoppingCart{
+  display: inline;
+  float:right;
+  margin-right: 10%;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
